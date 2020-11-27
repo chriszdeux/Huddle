@@ -12,7 +12,8 @@
 */
 
 .starter--free {
-  width: 300px;
+  min-width: 250px;
+  max-width: 500px;
   height: 50px;
   border-radius: 40px;
   border: none;
@@ -21,7 +22,8 @@
   font-size: 1.7rem;
   font-weight: bold;
   text-transform: capitalize;
-  color: var(--soft-gray);
+  color: #ffffff;
+  box-shadow: 1px 1px 5px 1px var(--gray-color);
 }
 
 .starter--free:hover {

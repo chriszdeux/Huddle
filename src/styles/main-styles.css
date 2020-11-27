@@ -1,10 +1,10 @@
 :root {
   --pink-color: hsl(322, 100%, 66%);
-  --soft-gray:  hsl(193, 100%, 96%);
+  --soft-gray:  #E8E8E8;
   --gray-color: hsl(208, 11%, 55%);
   --dark-gray: hsl(192, 100%, 9%);
-  --header-font: 'Poppins', sans-serif;
-  --main-font: 'Open Sans', sans-serif;
+  --main-font: 'Poppins', sans-serif;
+  --header-font: 'Open Sans', sans-serif;
   --testing: blue;
 }
 
