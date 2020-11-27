@@ -1,0 +1,31 @@
+/*
+:root {
+  --pink-color: hsl(322, 100%, 66%);
+  --soft-gray:  hsl(193, 100%, 96%);
+  --gray-color: hsl(208, 11%, 55%);
+  --dark-gray: hsl(192, 100%, 9%);
+  --header-font: 'Poppins', sans-serif;
+  --main-font: 'Open Sans', sans-serif;
+  --testing: blue;
+}
+
+*/
+
+.starter--free {
+  width: 300px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  outline-style: none;
+  background-color: var(--pink-color);
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--soft-gray);
+}
+
+.starter--free:hover {
+  opacity: 0.8;
+}
+
+

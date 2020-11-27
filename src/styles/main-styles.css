@@ -1,0 +1,25 @@
+:root {
+  --pink-color: hsl(322, 100%, 66%);
+  --soft-gray:  hsl(193, 100%, 96%);
+  --gray-color: hsl(208, 11%, 55%);
+  --dark-gray: hsl(192, 100%, 9%);
+  --header-font: 'Poppins', sans-serif;
+  --main-font: 'Open Sans', sans-serif;
+  --testing: blue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+
+  font-family: var(--main-font);
+  font-size: 1.8rem;
+}

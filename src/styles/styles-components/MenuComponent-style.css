@@ -1,0 +1,41 @@
+/*
+  --pink-color: hsl(322, 100%, 66%);
+  --soft-gray:  hsl(193, 100%, 96%);
+  --gray-color: hsl(208, 11%, 55%);
+  --dark-gray: hsl(192, 100%, 9%);
+  --header-font: 'Poppins', sans-serif;
+  --main-font: 'Open Sans', sans-serif;
+  --testing: blue;
+*/
+
+header {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font-family: var(--header-font);
+  /* background-color: aqua; */
+}
+
+.menu {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.huddle--logo img{
+  width: 120px;
+}
+
+.try--free {
+  width: 140px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 10px 1px var(--gray-color);
+  background-color: var(--soft-gray);
+  font-weight: 700;
+  
+}

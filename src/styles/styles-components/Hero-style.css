@@ -1,0 +1,43 @@
+.main--container {
+  /* width: 100%; */
+  height: auto;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('../../utils/images/bg-hero-mobile.svg');
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: center;
+  text-align: center;
+  
+}
+
+.hero--content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero--content:nth-child(2 -1){
+  color: red;
+}
+
+.hero--content h2 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.hero--content p {
+  font-size: 1.9rem;
+  color: var(--dark-gray);
+  margin-bottom: 30px;
+}
+
+.hero--img{
+  margin-top: 40px;
+}
+.hero--img img{
+  min-width: 320px;
+  width: 350px;
+  object-fit: cover;
+}
