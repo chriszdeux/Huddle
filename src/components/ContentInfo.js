@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 import '../styles/styles-components/ContentInfo-style.css';
-import growTogether from '../utils/images/illustration-grow-together.svg';
-import flowingConversations from '../utils/images/illustration-flowing-conversation.svg';
-import yourUsers from '../utils/images/illustration-your-users.svg';
+// import growTogether from '../utils/images/illustration-grow-together.svg';
+// import flowingConversations from '../utils/images/illustration-flowing-conversation.svg';
+// import yourUsers from '../utils/images/illustration-your-users.svg';
 
 import { dataBase } from '../data/ContentInfo-data';
 
