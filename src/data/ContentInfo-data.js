@@ -24,20 +24,4 @@ export const dataBase = [
     img: yourUsers,
   },
 
-  {
-    id: 4,
-    title: 'prueba de ardilla',
-    content: "esto es una prueba para el amor de mi vida que es la ardilla muy rabiosa, me enamore? bastante, fue una locura? por supuesto/",
-    img: growImg,
-  },
-
-  {
-    id: 5,
-    title: 'soy ardilla perruna',
-    content: "me encanta rascarme la nariz, a mi esposa le desargada, pero aun asi, ella me ama :D",
-    img: flowingImg,
-  },
-
-
-
 ]
