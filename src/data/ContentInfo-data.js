@@ -7,7 +7,7 @@ export const dataBase = [
     id: 1,
     title: 'grow together',
     content: 'Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form',
-    img: growImg,
+    img: 'https://content.halocdn.com/media/Default/games/halo-5-guardians/page/h5-guardians-facebook-1200x630-ba103624b3f34af79fe8cb2d340dce3f.jpg',
   },
 
   {
