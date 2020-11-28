@@ -1,0 +1,153 @@
+/*
+:root {
+  --pink-color: hsl(322, 100%, 66%);
+  --soft-gray:  hsl(193, 100%, 96%);
+  --gray-color: hsl(208, 11%, 55%);
+  --dark-gray: hsl(192, 100%, 9%);
+  --header-font: 'Poppins', sans-serif;
+  --main-font: 'Open Sans', sans-serif;
+  --testing: blue;
+}
+
+*/
+
+footer {
+  position: absolute;
+  /* width: 90%; */
+  width: 100%;
+  background-color: var(--dark-gray);
+  margin-top: 100px;
+  padding: 100px 0;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.footer--container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact--us {
+  /* display: flex; */
+  margin-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.contact--location {
+  display: flex;
+}
+
+.contact--location span {
+  margin-right: 20px;
+}
+div span {
+  padding: 25px 0;
+}
+.contact--phone {
+  display: flex;
+}
+
+.contact--phone span {
+  margin-right: 20px;
+}
+
+.contact--email {
+  display: flex;
+}
+
+.contact--email span {
+  margin-right: 20px;
+}
+
+
+
+.location {
+  width: 40px;
+  background-image: url('../../utils/images/icon-location.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.phone {
+  width: 40px;
+  background-image: url('../../utils/images/icon-phone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.email {
+  width: 40px;
+  background-image: url('../../utils/images/icon-email.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about--us {
+  font-family: var(--header-font);
+  font-size: 2.2rem;
+}
+
+.about--us a {
+  display: block;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+.social--media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.social--media span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 2.5rem;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.copyright {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/* .facebook--icon {
+  width: 30px;
+  background-image: url('../../utils/icons/logo-facebook.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+@media screen and (min-width: 1000px) {
+  .footer--content {
+    /* display: flex; */
+    /* display: flex; */
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer--content  {
+    /* width: 33.3%; */
+  }
+  .social--media {
+    flex-direction: column;
+  }
+  /* .social--media {
+    margin-top: 40px;
+    justify-self: center;
+  } */
+  .copyright {
+    text-align: end;
+  }
+}

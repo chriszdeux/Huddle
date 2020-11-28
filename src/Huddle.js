@@ -7,12 +7,14 @@ import { MenuComponent } from './components/MenuComponent';
 
 import './styles/main-styles.css';
 import './styles/buttons-styles/GetStarterForFree-style.css';
+import { Footer } from './components/Footer';
 export const Huddle = () => {
   return (
     <>
       <MenuComponent />
       <Hero />
       <ContentInfo />
+      <Footer />
       <BuildCommunity />
     </>
   )

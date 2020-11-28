@@ -21,7 +21,7 @@ export const ContentInfo = () => {
         </article>
       </section>
 
-      <section className="content">
+      <section className="content content--inverse">
         <figure className="content--image">
           <img src={ flowingConversations } alt="" />
         </figure>

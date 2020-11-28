@@ -37,5 +37,5 @@ header {
   box-shadow: 1px 1px 10px 1px var(--gray-color);
   background-color: var(--soft-gray);
   font-weight: 700;
-  
+  outline-style: none;
 }

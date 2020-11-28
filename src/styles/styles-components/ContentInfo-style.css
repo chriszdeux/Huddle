@@ -11,34 +11,68 @@
 
 
 .content {
-  position: relative;
+  /* position: relative; */
+  /* display: inline-block; */
   width: 90%;
   margin: 50px auto;
   padding: 20px;
+  margin-bottom: 150px;
   /* padding: 20px; */
   border: 3px solid var(--soft-gray);
   border-radius: 20px;
   text-align: center;
   /* box-shadow: 1px 1px 10px 1px var(--gray-color); */
   box-shadow: 1px 1px 10px 1px var(--soft-gray);
-  
+  /* margin-bottom: 100px; */
 }
 
+
 .content--image {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
   height: auto;
   padding-bottom: 20px;
 }
 
 .content--image img {
-  width: 300px;
+  width: 100%;
+  max-width: 1400px;
 }
 .content--info h3 {
   text-transform: capitalize;
   padding-bottom: 20px;
 }
+.content--info {
+  /* width: 50%; */
+  height: auto;
+  padding: 10px 20px;
 
+}
 .content--info p {
   font-size: 1.5rem;
   color: var(--gray-color);
   font-family: var(--header-font);
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 0; */
+  }
+
+  .content--inverse .content--image {
+    order: 1;
+  }
+  .content--inverse .content--info {
+    order: 0;
+  }
+  /* .content--inverse article{
+    order: 1;
+  }
+  .content--inverse figure {
+    order: 2;
+  } */
 }
