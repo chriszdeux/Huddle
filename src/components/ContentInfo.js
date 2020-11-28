@@ -36,8 +36,8 @@ export const ContentInfo = (  ) => {
               <figure className="content--image" >
                 
                 {/* { <newImg src={ img }/> } */}
-                <img className="hero--image" src={ img } alt={ title } />
-      
+                <img className="hero--image" src={  img  } alt={ title } />
+                
               </figure>
               <article className="content--info">
                   <h3>{ title }</h3>
