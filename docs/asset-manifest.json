@@ -15,8 +15,8 @@
     "static/media/Hero-style.css": "/static/media/bg-hero-mobile.db68da70.svg",
     "static/media/Footer-style.css": "/static/media/icon-phone.47e54a44.svg",
     "static/media/illustration-flowing-conversation.svg": "/static/media/illustration-flowing-conversation.6641e825.svg",
-    "static/media/illustration-grow-together.svg": "/static/media/illustration-grow-together.bb27da81.svg",
-    "static/media/illustration-mockups.svg": "/static/media/illustration-mockups.88090ace.svg",
+    "static/media/illustration-grow-together.svg": "./static/media/illustration-grow-together.bb27da81.svg",
+    "static/media/illustration-mockups.svg": "./static/media/illustration-mockups.88090ace.svg",
     "static/media/illustration-your-users.svg": "/static/media/illustration-your-users.8a5af995.svg",
     "static/media/logo-facebook.svg": "/static/media/logo-facebook.0f7b9ab7.svg",
     "static/media/logo.svg": "/static/media/logo.3cb86730.svg"
